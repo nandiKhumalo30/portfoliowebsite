@@ -1,0 +1,95 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px; 
+    
+}
+
+body{
+    height: 100vh; 
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 40pt;
+	font-weight: 300;
+	line-height: 1.65em;
+}
+section{
+    float: left;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 130px;
+    position: absolute; 
+}
+h2{
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+.home-body{
+    background-image: url("/image/nandi.jpg");
+    background-size: auto;
+    color: rgb(243, 236, 236);
+}
+.home-body .image img{
+    padding-right: 50px;
+    float: right;
+    width: 400px;
+    height: 500px;
+    left: 200px;
+}
+.home-body h3{
+    font-size: 130px;
+}
+.about-body{
+    background-image: url("/image/about.jpg");
+    background-size: cover;
+    color: rgb(243, 236, 236);
+}
+.skill-body{
+    background-image: url("/image/skill.jpg");
+    background-size: cover;
+    color: #fff6f6;
+}
+
+
+.project-body{
+    background-image: url("/image/project.jpg");
+    background-size: cover;
+    color: #fff6f6;
+}
+
+a{
+    color: inherit;   
+}
+.project-body a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.contact-body{
+    background-image: url("/image/communication.jpg");
+    background-size: cover;
+    color: #fff6f6;
+}
+
+.topnav{
+ 
+    overflow: hidden;
+} 
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 60px;
+    text-decoration: none;
+    font-size: 40px;
+}  
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+
+
